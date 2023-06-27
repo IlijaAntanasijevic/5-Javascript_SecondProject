@@ -1,0 +1,14 @@
+[
+  {
+    "id" : 1,
+    "naziv" : "Laptop"
+  },
+  {
+    "id" : 2,
+    "naziv" : "Telefon"
+  },
+  {
+    "id" : 3,
+    "naziv" : "Monitor"
+  }
+]

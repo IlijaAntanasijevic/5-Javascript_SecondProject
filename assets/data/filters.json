@@ -1,0 +1,285 @@
+[
+  {
+    "filterNaziv" : [
+      {
+        "mainId" : 1,
+        "id" : "lenovo",
+        "naziv" : "Lenovo"
+      },
+      {
+        "mainId" : 1,
+        "id" : "samsung",
+        "naziv" : "Samsung"
+      },
+      {
+        "mainId" : 1,
+        "id" : "apple",
+        "naziv" : "Apple"
+      }
+    ]
+  },
+  {
+    "filterNaziv" : [
+      {
+        "mainId" : 2,
+        "id" : "4Ram",
+        "naziv" : "4 GB"
+      },
+      {
+        "mainId" : 2,
+        "id" : "8Ram",
+        "naziv" : "8 GB"
+      },
+      {
+        "mainId" : 2,
+        "id" : "16Ram",
+        "naziv" : "16 GB"
+      },
+      {
+        "mainId" : 2,
+        "id" : "32Ram",
+        "naziv" : "32 GB"
+      }
+    ]
+  },
+  {
+    "filterNaziv" : [
+      {
+        "mainId" : 3,
+        "id" : "13.3Screen",
+        "naziv" : "13.3\""
+      },
+      {
+        "mainId" : 3,
+        "id" : "14.2Screen",
+        "naziv" : "14.2\""
+      },
+      {
+        "mainId" : 3,
+        "id" : "14.5Screen",
+        "naziv" : "14.5\""
+      },
+      {
+        "mainId" : 3,
+        "id" : "15.6Screen",
+        "naziv" : "15.6\""
+      }
+    ]
+  },
+  {
+    "filterNaziv" : [
+      {
+        "mainId" : 4,
+        "id" : "128ssd",
+        "naziv" : "SSD 128 GB"
+      },
+      {
+        "mainId" : 4,
+        "id" : "256ssd",
+        "naziv" : "SSD 256 GB"
+      },
+      {
+        "mainId" : 4,
+        "id" : "512ssd",
+        "naziv" : "SSD 512 GB"
+      }
+    ]
+  },
+  {
+    "filterNaziv" : [
+      {
+        "mainId" : 5,
+        "id" : "gaming-Da",
+        "naziv" : "Da"
+      },
+      {
+        "mainId" : 5,
+        "id" : "gaming-Ne",
+        "naziv" : "Ne"
+      }
+    ]
+  },
+  {
+    "filterNaziv" : [
+      {
+        "mainId" : 6,
+        "id" : "iphone",
+        "naziv" : "Iphone"
+      },
+      {
+        "mainId" : 6,
+        "id" : "samsung",
+        "naziv" : "Samsung"
+      },
+      {
+        "mainId" : 6,
+        "id" : "huawei",
+        "naziv" : "Huawei"
+      }
+     
+    ]
+  },
+  {
+    "filterNaziv" : [
+      {
+        "mainId" : 7,
+        "id" : "64memorija",
+        "naziv" : "64 GB"
+      },
+      {
+        "mainId" : 7,
+        "id" : "128memorija",
+        "naziv" : "128 GB"
+      },
+      {
+        "mainId" : 7,
+        "id" : "256memorija",
+        "naziv" : "256 GB"
+      }
+    ]
+  },
+  {
+    "filterNaziv" : [
+      {
+        "mainId" : 8,
+        "id" : "3000mAh",
+        "naziv" : "3000 mAh"
+      },
+      {
+        "mainId" : 8,
+        "id" : "3600mAh",
+        "naziv" : "3600 mAh"
+      },
+      {
+        "mainId" : 8,
+        "id" : "4800mAh",
+        "naziv" : "4800 mAh"
+      }
+    ]
+  },
+ 
+  {
+    "filterNaziv" : [
+      {
+        "mainId" : 10,
+        "id" : "single",
+        "naziv" : "Single"
+      },
+      {
+        "mainId" : 10,
+        "id" : "dual",
+        "naziv" : "Dual"
+      }
+    ]
+  },
+  {
+    "filterNaziv" : [
+      {
+        "mainId" : 11,
+        "id" : "acer",
+        "naziv" : "Acer"
+      },
+      {
+        "mainId" : 11,
+        "id" : "dell",
+        "naziv" : "Dell"
+      },
+      {
+        "mainId" : 11,
+        "id" : "random",
+        "naziv" : "Random"
+      }
+    ]
+  },
+  {
+    "filterNaziv" : [
+      {
+        "mainId" : 12,
+        "id" : "1920x1080",
+        "naziv" : "1920 x 1080"
+      },
+      {
+        "mainId" : 12,
+        "id" : "1280x1024",
+        "naziv" : "1280 x 1024"
+      },
+      {
+        "mainId" : 12,
+        "id" : "2560x1080",
+        "naziv" : "2560 x 1080"
+      }
+    ]
+  },
+  {
+    "filterNaziv" : [
+      {
+        "mainId" : 13,
+        "id" : "IPS",
+        "naziv" : "IPS"
+      },
+      {
+        "mainId" : 13,
+        "id" : "OLED",
+        "naziv" : "OLED"
+      },
+      {
+        "mainId" : 13,
+        "id" : "LED",
+        "naziv" : "LED"
+      }
+    ]
+  },
+  {
+    "filterNaziv" : [
+      {
+        "mainId" : 14,
+        "id" : "27Rez",
+        "naziv" : "27 \""
+      },
+      {
+        "mainId" : 14,
+        "id" : "32Rez",
+        "naziv" : "32 \""
+      },
+      {
+        "mainId" : 14,
+        "id" : "38Rez",
+        "naziv" : "38 \""
+      }
+    ]
+  },
+  {
+    "filterNaziv" : [
+      {
+        "mainId" : 15,
+        "id" : "60Hz",
+        "naziv" : "60HZ"
+      },
+      {
+        "mainId" : 15,
+        "id" : "144Hz",
+        "naziv" : "144HZ"
+      },
+      {
+        "mainId" : 15,
+        "id" : "210Hz",
+        "naziv" : "210HZ"
+      }
+    ]
+  },
+  {
+    "filterNaziv" : [
+      {
+        "mainId" : 16,
+        "id" : "12kamera",
+        "naziv" : "12 MP"
+        
+      },
+      {
+        "mainId" : 16,
+        "id" : "28kamera",
+        "naziv" : "28 MP"
+      }
+    ]
+  }
+]

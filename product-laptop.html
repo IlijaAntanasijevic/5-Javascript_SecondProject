@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords"
+    content="Laptop,Techpro,Proizvodi,Samsung Galaxy Book Flex Aplpha,Samsung galaxy,Lenovo LapTop Legion,Lenovo" />
+  <meta name="description"
+    content="Veliki izbor laptop racunara | Samsung Galaxy Book Flex , Lenovo laptop Legion &#46;&#46;&#46; | Techpro" />
+  <!-- Css Template -->
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" type="text/css" />
+  <!-- Bootstrap 5.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <!--favicon-->
+  <link rel="shortcut icon" href="assets/images/logo.ico" type="image/x-icon">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Inter:wght@300;400;700&display=swap"
+    rel="stylesheet" />
+  <title>Laptop</title>
+</head>
+
+<body>
+  <div class="spinner"></div>
+  <div id="bodyBG"></div>
+  <header>
+    <!-- pre header -->
+    <div class="container-fluid ia-bg-red" id="pre-header">
+      <div class="container-fluid pt-1">
+        <div class="row">
+          <div class="col-lg-6 col-sm-10 " id="pre-header-info">
+            <ul class="d-flex mb-2 ps-0">
+              <li><a href="tel:+38164123456" class="ms-4"><span class="iconify"
+                    data-icon="ic:round-phone-android"></span> +381 60 123 456</a></li>
+              <li><a href="mailto:techpro@gmail.com">
+                  <span class="iconify ms-4 mailFirst " data-icon="bytesize:mail"></span>
+                  techpro&#64;gmail&#46;com</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6 col-sm-2 d-flex justify-content-end" id="pre-header-links">
+            <ul class="d-flex justify-content-end mb-0">
+              <li><a href="#"><span class="iconify" data-icon="akar-icons:facebook-fill"></span></a></li>
+              <li><a href="#" class="mx-3"><span class="iconify" data-icon="simple-icons:instagram"></span></a></li>
+              <li><a href="#"><span class="iconify" data-icon="entypo-social:twitter-with-circle"></span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End pre header -->
+
+    <!-- Main nav -->
+    <nav class="navbar navbar-expand-lg ia-bg-black" id="main-nav">
+      <div class="container-xl">
+        <h1><a class="navbar-brand text-light" href="../../index.html">Techpro</a></h1>
+
+        <div class="collapse navbar-collapse ia-links-nav" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" id="navMenu">
+            <!--Nav menu in JS-->
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Pretraga" id="search">
+            <button class="btn text-light" id="ia-btn-outline" type="submit">Pretraži</button>
+          </form>
+
+        </div>
+        <!--Responsive-->
+        <div id="hamb">
+          <div id="open">
+            <span></span>
+            <span id="mid-line"></span>
+            <span></span>
+          </div>
+          <div id="contentHamb">
+            <ul id="hambNav">
+              <!--Nav in JS-->
+            </ul>
+            <div id="cartHamb">
+              <span class="iconify" data-icon="material-symbols:shopping-cart"></span>
+              <p>0.00RSD</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="cart">
+          <span class="iconify" data-icon="material-symbols:shopping-cart"></span>
+          <span id="numberProducts">0</span>
+        </div>
+
+      </div>
+    </nav>
+    <div id="cartProducts">
+      <span class="iconify" data-icon="material-symbols:close-rounded" id="cartClose"></span>
+      <p id="cartNone">Trenutno nemate prozivda !</p>
+    </div>
+    <div id="searchProduct"></div>
+    <!-- End main nav -->
+  </header>
+  <!--Orders-->
+  <div id="order">
+    <span class="iconify" data-icon="material-symbols:close-rounded" id="orderClose"></span>
+    <div id="formOrder">
+      <form action="#">
+        <div class="d-flex justify-content-evenly mt-4 ia-row">
+          <div id="nameOrder">
+            <label for="nameOrder" class="text-light d-block">Ime:</label>
+            <input type="text" id="nameOrderInput" class="focusBg text-light">
+            <p class="hide">Neispravno ime (primer: Petar)</p>
+          </div>
+          <div id="lastaNameOrder">
+            <label for="lName" class="text-light d-block w-25">Prezime:</label>
+            <input type="text" id="lName" class="focusBg ">
+            <p class="hide">Neispravno prezime</p>
+          </div>
+        </div>
+        <div class="d-flex justify-content-evenly mt-4 ia-row">
+          <div id="phoneOrder">
+            <label for="phoneO" class="text-light d-block">Telefon:</label>
+            <input type="text" id="phoneO" class="focusBg text-light">
+            <p class="hide">Neispravan telefon (primer: +381XXXXXXXX)</p>
+          </div>
+          <div id="addressOrder">
+            <label for="addr" class="text-light d-block">Adresa:</label>
+            <input type="text" id="addr" class="focusBg text-light">
+            <p class="hide">Neispravna adresa (primer: 27 Mart)</p>
+          </div>
+        </div>
+
+        <div id="infoOrder" class="d-flex justify-content-evenly mt-4 ia-row">
+          <div id="cityOrder">
+            <label for="city" class="text-light d-block">Grad:</label>
+            <input type="text" id="city" class="focusBg text-light">
+            <p class="hide">Neispravan grad (primer: Beograd)</p>
+          </div>
+          <div id="zipCodeOrder">
+            <label for="zipC" class="text-light d-block">Postanski broj:</label>
+            <!-- <input type="text" id="zipC" class="focusBg text-light">
+            <p class="hide">Neispravan postanski broj (primer: 11000)</p> -->
+            <select id="country">
+              <option value="0">Izaberite</option>
+              <option value="1">Srbija</option>
+              <option value="2">Bosna i Hercegovina</option>
+              <option value="3">Crna Gora</option>
+            </select>
+          </div>
+        </div>
+        <!---->
+      </form>
+    </div>
+    <div id="personalInfo">
+      <p id="infoText" class="hide">Uspesno ste narucili !</p>
+      <ul id="infoUl" class=" text-light d-flex justify-content-center">
+
+      </ul>
+    </div>
+    <div class="btnProducts">
+      <form action="#" method="post">
+        <input type="button" value="Naruci" class="btnCart" id="btnOrder">
+      </form>
+    </div>
+  </div>
+  <!-- End main nav -->
+
+
+  <div class=" ps-0 ia-aside d-flex">
+    <div id="hambAside">
+      <div class="d-flex" id="filtersHamb">
+        <span class="iconify text-light" data-icon="material-symbols:filter-alt"></span>
+        <p class="text-light">Filteri</p>
+      </div>
+      <div class="d-flex" id="sortHamb">
+        <select id="ddlSortResponsive">
+
+        </select>
+      </div>
+    </div>
+    <!-- Filters -->
+    <aside class="ia-bg-darkGrey" id="aside">
+      <span class="iconify" data-icon="material-symbols:close-rounded" id="asideClose"></span>
+      <div class="text-light" id="sort">
+        <p>Sortiraj: </p>
+        <select id="ddlSort">
+
+        </select>
+      </div>
+      <nav class="container-fluid" id="filtersNav">
+        <form class="pt-4 pb-4 ms-4" id="filtersPrintout">
+          <!-- Filter JSON -->
+
+        </form>
+      </nav>
+
+    </aside>
+    <!-- End Filters -->
+
+    <!-- Products -->
+    <div class="container-md products-1">
+      <p id="noneProduct">Trenutno nema proizvoda !</p>
+      <div class="row " id="products">
+
+        <!-- Prducts JSON -->
+      </div>
+    </div>
+    <!--End Products-->
+  </div>
+  <div>
+    <p class="alert alert-success position-fixed mx-auto d-none" id="succAdd">Uspesno ste dodali u korpu</p>
+  </div>
+
+  <div id="product">
+    <p class="text-light" id="closeProduct">X</p>
+    <div class="d-flex align-items-center justify-content-around ia-product-info">
+      <div id="imgProduct">
+      </div>
+      <div id="productInfo">
+      </div>
+    </div>
+
+    <div id="infoProduct">
+
+    </div>
+  </div>
+
+  <!--Footer-->
+  <footer id="footer">
+    <div class="container-fluid ia-bg-darkGrey mt-5 py-5">
+      <div class="container-md">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 d-flex flex-column align-items-center ia-form">
+            <h3 class="ia-text-red mb-4">Kontakt:</h3>
+            <form method="post">
+              <div id="name-form">
+                <label for="name" class="text-light d-block">Ime: </label>
+                <input type="text" id="name" class="focusBg text-light ">
+                <p class="hide">Neispravno ime (primer: Petar)</p>
+              </div>
+              <div id="email-form">
+                <label for="email" class="text-light d-block">Email:</label>
+                <input type="email" id="email" class="focusBg">
+                <p class="hide">Neispravan email (primer: mail@gmail.com)</p>
+              </div>
+              <div id="text-message">
+                <label for="mess" class="text-light d-block">Poruka: </label>
+                <textarea name="mess" id="mess" cols="25" rows="10" class="focusBg"></textarea>
+                <p class="hide">Poruka mora sadrzati barem 2 reci</p>
+              </div>
+              <div class="d-flex justify-content-around mb-5">
+                <div id="firstDIV" class="col-6 text-center">
+                  <label for="zalba" class="text-light radio">Zalba</label>
+                  <input type="radio" name="rbQ" id="zalba">
+                </div>
+                <div id="secondDIV" class="col-6 text-center">
+                  <label for="pitanje" class="text-light radio">Pitanje</label>
+                  <input type="radio" name="rbQ" id="pitanje">
+                </div>
+                <p class="hide">Morate izabrati</p>
+              </div>
+              <input type="button" value="Pošalji" id="submit">
+
+            </form>
+          </div>
+          <div class="col-md-6 col-sm-12 d-flex flex-column align-items-center ia-wtime">
+            <h3 class="text-light mb-4">Radno vreme:</h3>
+            <div id="wtime" class="text-center">
+              <p class="ia-text-red">Radnim danima: 9h - 21h</p>
+              <p class="ia-text-red">Subota: 9h - 14h</p>
+              <p class="ia-text-red">Nedelja: Ne radimo</p>
+            </div>
+
+            <a href="mailto:nekimail@gmail.com" class="text-light"><span class="iconify text-light me-2"
+                data-icon="bytesize:mail"></span>techpro&#64;gmail&#46;com</a>
+            <a href="tel:06612345556" class="text-light"><span class="iconify text-light me-2 my-3"
+                data-icon="ic:round-phone-android"></span> 066 123 45556</a>
+            <a href="tel:011302525" class="text-light"> <span class="iconify text-light me-2"
+                data-icon="ic:round-phone-android"></span> 011 30 25 25</a>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <div id="footer-end" class="ia-bg-red">
+      <div class="links d-flex justify-content-center align-items-center">
+        <p> <a href="assets/pages/author.html">&copy; Ilija Antanasijević | 2022</a></p>
+        <a href="assets/css/style.scss" target="_blank" title="Style SASS"><span class="iconify mx-3"
+            data-icon="akar-icons:sass-fill"></span></a>
+        <a href="assets/sitemap.xml" target="_blank" title="Sitemap"><span class="iconify"
+            data-icon="bx:sitemap"></span></a>
+      </div>
+    </div>
+  </footer>
+
+  <div id="arrow"><span class="iconify" data-icon="material-symbols:arrow-circle-down-outline"
+      data-rotate="180deg"></span></div>
+
+
+
+  <!-- Iconify Link -->
+  <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+  <!-- Bootsrtap 5 -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <!-- jQuery -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <!-- jQuery DIM Background-->
+  <script type="text/javascript"
+    src="http://andywer.github.io/jquery-dim-background/jquery.dim-background.min.js"></script>
+  <!-- Main JavaScript -->
+  <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1763 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@media screen and (max-width: 1400px) {
+  .ia-products:nth-child(odd) {
+    margin-left: 100px;
+  }
+  #firstPromo #firstPromoImg img {
+    width: 70%;
+  }
+  .textPromo {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .products-1 {
+    overflow-x: hidden;
+  }
+  .cards {
+    width: 250px;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding-bottom: 20px;
+  }
+  .ia-aside {
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 1025px) {
+  #main-nav {
+    padding: 10px 50px;
+  }
+  .ia-cards {
+    padding-left: 0px;
+  }
+  .ia-cards .cards .price-samsung h3 {
+    margin-top: 52px;
+  }
+  .ia-cards #samsung-phone img {
+    width: 80%;
+    margin-bottom: 25px;
+    transform: translateX(10%);
+  }
+  .samsung-phone h2 {
+    padding: 3px 0px;
+  }
+  .products-1 .cards h2 {
+    font-size: 1.3rem;
+  }
+  .products-1 .cards .price {
+    width: 170px;
+  }
+  .products-1 .cards .price h3 {
+    font-size: 1.4rem;
+  }
+  .products-1 .cards .info {
+    width: 250px;
+  }
+  .products-1 .cards #samsung-laptop img {
+    transform: translateX(7%);
+  }
+  .products-1 .cards #lenovo img {
+    width: 60% !important;
+    margin: 20px 0px;
+    transform: translateX(30%);
+  }
+  .products-1 .ia-phone-iphone img {
+    width: 50%;
+    transform: translateX(50%);
+  }
+  .product-img-sams img {
+    width: 65%;
+  }
+  .product-price-iphone {
+    transform: translateX(0%);
+  }
+  .dell-monitor img {
+    width: 60%;
+  }
+  .ia-author #circle {
+    right: 80px;
+    bottom: 0px;
+    width: 60px;
+    height: 60px;
+  }
+  .ia-author p {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 991px) {
+  #main-nav #hamb {
+    display: block;
+  }
+  .ia-author #circle {
+    right: 55px;
+  }
+  .ia-aside {
+    margin-left: 20px;
+  }
+  .ia-products:nth-child(odd) {
+    margin-left: 50px;
+  }
+  #product #imgProduct {
+    width: 350px;
+  }
+  #product #productInfo table td {
+    font-size: 1.1rem;
+  }
+  #product .productPrice {
+    align-items: center;
+  }
+  #product .productPrice #productCart {
+    border: 1px solid #BC0A0A;
+    padding: 15px 15px;
+    cursor: pointer;
+  }
+  #product .productPrice svg {
+    font-size: 2.5rem;
+  }
+  #product .productPrice span {
+    font-size: 1.5rem;
+  }
+  #product .productPrice .price {
+    padding: 20px 20px;
+  }
+  #product .productPrice .price h3 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 769px) {
+  #nav-button {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #nav-button button {
+    background-color: red;
+    padding: 4px 8px;
+  }
+  #order {
+    width: 90%;
+  }
+  #order #nameOrder, #order #lastaNameOrder, #order #phoneOrder, #order #addressOrder, #order #cityOrder, #order #zipCodeOrder {
+    margin: 0px;
+  }
+  #order input[type=text] {
+    width: 250px;
+  }
+  #slider {
+    padding: 0px 20px;
+    margin-bottom: 50px;
+  }
+  #slider .slick-prev, #slider .slick-next, #slider .slick-dots {
+    display: none !important;
+  }
+  #main-nav #ia-hamburger-menu {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  #main-nav #ia-hamburger-menu .navbar-toggler-icon {
+    background-color: white;
+    width: 25px;
+    margin: 3px 0px;
+    height: 3px;
+  }
+  .ia-cards, .products-1 {
+    margin: 0px !important;
+  }
+  .ia-cards .cards, .products-1 .cards {
+    margin: 10px auto !important;
+  }
+  .ia-cards .cards h2, .products-1 .cards h2 {
+    font-size: 1.3rem;
+  }
+  .ia-cards .cards .price, .products-1 .cards .price {
+    width: 170px;
+  }
+  .ia-cards .cards .price h3, .products-1 .cards .price h3 {
+    font-size: 1.3rem;
+  }
+  .ia-cards .cards .info, .products-1 .cards .info {
+    width: 250px;
+  }
+  .ia-cards .cards .info img, .products-1 .cards .info img {
+    margin-top: 10px !important;
+  }
+  .ia-cards .cards .price-samsung h3, .products-1 .cards .price-samsung h3 {
+    margin-top: 30px;
+  }
+  .ia-form {
+    padding-right: 0px !important;
+    padding-left: 35px !important;
+  }
+  /*Laptop Page*/
+  aside {
+    position: absolute;
+    left: -100%;
+    z-index: 1;
+  }
+  aside #sort {
+    display: none;
+  }
+  aside #asideClose {
+    display: block;
+  }
+  aside #ia-btn-form {
+    transform: translateX(20%);
+  }
+  .ia-aside {
+    margin-left: 0px !important;
+  }
+  .ia-aside #hambAside {
+    display: flex !important;
+  }
+  .ia-aside #hambAside #sortHamb select {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .ia-aside #hambAside #sortHamb select::after {
+    content: "";
+    -webkit-clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+            clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+  }
+  .ia-aside #hambAside #sortHamb select option {
+    background-color: gray;
+  }
+  .ia-products {
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+  }
+  .ia-products:nth-child(odd) {
+    margin-left: 0px;
+  }
+  .products-1 .row {
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .products-1 .cards {
+    margin-top: 50px;
+  }
+  .products-1 .cards h2 {
+    font-size: 1.1rem;
+  }
+  .products-1 .cards .price {
+    width: 150px;
+  }
+  .products-1 .cards .price h3 {
+    font-size: 1.1rem;
+    margin-top: 30px;
+  }
+  .products-1 .cards .info {
+    width: 200px;
+  }
+  .products-1 .cards .info svg {
+    font-size: 2.05rem;
+    margin-top: 10px;
+  }
+  .products-1 .ia-ml-mr {
+    margin-left: 90px;
+    margin-right: 40px;
+  }
+  .products-1 .ia-mt {
+    margin-top: 50px;
+  }
+  .products-1 .ia-predator-mon h2 {
+    margin: 25px auto;
+  }
+  .products-1 .ia-dell img {
+    transform: translateX(40%) !important;
+    width: 65% !important;
+    margin: 0px !important;
+  }
+  .about-product table tr td {
+    font-size: 1.1rem;
+  }
+  .product-price p {
+    width: 140px;
+    height: 40px;
+    font-size: 1.3rem;
+  }
+  .about-product-lenovo {
+    transform: translateX(20%);
+  }
+  .product-price-lenovo {
+    transform: translateX(-25%);
+  }
+  .product-price-lenovo input[type=submit] {
+    width: 140px;
+  }
+  .product-price-lenovo p {
+    font-size: 1.1rem;
+  }
+  .product-img-sams img {
+    width: 65%;
+  }
+  .about-product-samsung {
+    transform: translateX(20%);
+  }
+  .product-price-samsung {
+    transform: translateX(-30px);
+  }
+  .product-price-samsung input[type=number] {
+    display: block !important;
+  }
+  .product-price-samsung input[type=submit] {
+    width: 140px;
+  }
+  .product-price-iphone p {
+    font-size: 1rem;
+  }
+  .product-price-iphone input[type=submit] {
+    width: 140px;
+  }
+  .predator-price p {
+    width: 160px;
+    font-size: 1.2rem;
+  }
+  .about-product-dell {
+    transform: translateX(20%);
+  }
+  .product-price-dell p {
+    font-size: 1.15rem;
+  }
+  .product-price-dell input[type=submit] {
+    width: 140px;
+  }
+  .ia-author p {
+    font-size: 1.2rem;
+  }
+  .ia-author svg {
+    font-size: 1.3rem;
+  }
+  .ia-author #circle {
+    margin-top: 15px;
+    width: 70px;
+    height: 70px;
+  }
+  .ia-author-img img {
+    width: 40%;
+  }
+  footer form #submit {
+    transform: translateX(140%);
+    margin-top: 15px;
+    margin-bottom: 35px;
+  }
+  #product .ia-product-info {
+    flex-direction: column;
+  }
+  #product table {
+    margin-bottom: 25px;
+  }
+  #product .productPrice {
+    flex-direction: column-reverse;
+  }
+  #product .productPrice .price {
+    margin-bottom: 25px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #pre-header-info svg {
+    margin: 0px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+  }
+  #pre-header-info ul {
+    justify-content: center;
+    padding-left: 0px;
+  }
+  #pre-header-info li a {
+    font-size: 0.9rem !important;
+  }
+  #pre-header-links {
+    justify-content: center !important;
+  }
+  #pre-header-links svg {
+    margin-bottom: 15px;
+    font-size: 1rem;
+  }
+  #slider .slick-list {
+    border-radius: 20px;
+  }
+  #order {
+    transform: translate(-50%, -15px);
+    height: 85vh;
+  }
+  #order .ia-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  #order #infoUl {
+    flex-direction: column;
+    align-items: center;
+  }
+  #order #infoUl div {
+    margin-right: 0px;
+  }
+  #order #infoUl div:last-child {
+    margin-right: 0px;
+  }
+  #order input[type=button] {
+    width: 110px;
+  }
+}
+@media screen and (max-width: 426px) {
+  #main-nav h1 a {
+    font-size: 2rem;
+  }
+  #main-nav #ia-hamburger-menu {
+    padding: 5px 8px;
+  }
+  #main-nav #ia-hamburger-menu .navbar-toggler-icon {
+    width: 20px;
+    height: 2px;
+    margin: 2px 0px;
+  }
+  #main-nav .ia-links-nav {
+    font-size: 0.9rem;
+  }
+  .ia-cards .cards h2, .products-1 .cards h2 {
+    font-size: 1.1rem;
+  }
+  .ia-cards .cards .price, .products-1 .cards .price {
+    width: 150px;
+  }
+  .ia-cards .cards .price h3, .products-1 .cards .price h3 {
+    font-size: 1.1rem;
+    padding: 0px;
+  }
+  .ia-cards .cards .info, .products-1 .cards .info {
+    width: 200px;
+  }
+  .ia-cards .cards .info svg, .products-1 .cards .info svg {
+    margin-top: 20px;
+  }
+  .ia-cards .cards img, .products-1 .cards img {
+    width: 140%;
+  }
+  .ia-cards .cards #monitor, .products-1 .cards #monitor {
+    transform: translateX(8%);
+  }
+  .ia-cards .cards #img-phone img, .products-1 .cards #img-phone img {
+    width: 50%;
+    transform: translateX(50%);
+  }
+  .ia-cards .cards #lenovo img, .products-1 .cards #lenovo img {
+    width: 60% !important;
+    transform: translateX(30%);
+  }
+  .ia-cards .cards #dell-monitor img, .products-1 .cards #dell-monitor img {
+    width: 50%;
+    transform: translateX(60%);
+  }
+  .ia-cards .cards #samsung-phone img, .products-1 .cards #samsung-phone img {
+    width: 70% !important;
+    transform: translateX(20%);
+  }
+  .ia-cards .cards .price-samsung h3, .products-1 .cards .price-samsung h3 {
+    margin-top: 15px;
+  }
+  .ia-form {
+    padding-left: 0px !important;
+  }
+  .ia-form label {
+    font-size: 0.8rem;
+  }
+  .ia-form input[type=submit] {
+    padding: 5px 15px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    transform: translateX(160%);
+  }
+  .ia-form h3 {
+    font-size: 1.2rem;
+  }
+  #wtime p {
+    font-size: 1.1rem;
+  }
+  .ia-wtime h3 {
+    font-size: 1.2rem;
+  }
+  footer a {
+    font-size: 1.1rem;
+  }
+  #footer-end a {
+    font-size: 0.8rem;
+  }
+  .footer-products {
+    margin-top: 50px !important;
+  }
+  /*aside page*/
+  .ia-aside aside .ia-form-filter {
+    padding-top: 5px !important;
+  }
+  .ia-aside aside .ia-aside p, .ia-aside aside .ia-aside label {
+    font-size: 0.8rem;
+  }
+  .ia-aside aside #ia-btn-form {
+    width: 70px;
+    font-size: 0.8rem;
+    transform: translateX(10%);
+  }
+  .ia-aside aside .ia-collapse p {
+    margin-top: 15px !important;
+    text-align: center;
+    width: 50px;
+  }
+  .ia-aside aside .ia-collapse p, .ia-aside aside .ia-collapse label {
+    font-size: 0.7rem;
+  }
+  .ia-aside aside .ia-form-filter {
+    margin-left: 0px !important;
+  }
+  .ia-aside aside .ia-filter-icon {
+    width: 40px;
+    height: 30px;
+  }
+  .products-1 {
+    position: static;
+  }
+  .products-1 .imgProduct {
+    display: flex;
+    justify-content: center;
+  }
+  .products-1 .ia-ml-mr {
+    margin-top: 20px !important;
+  }
+  .products-1 .cards {
+    /*
+    #lenovo {
+        img {
+            width: 50% !important;
+            transform: translateX(50%);
+        }
+    }
+    */
+  }
+  .products-1 .cards .price {
+    height: 40px;
+  }
+  .products-1 .cards .price h3 {
+    font-size: 1.2rem;
+    transform: translateY(10px);
+  }
+  .products-1 .cards .info {
+    width: 170px;
+  }
+  .products-1 .cards .info img {
+    width: 27%;
+    margin-top: 20px !important;
+  }
+  .products-1 .ia-mt {
+    margin-top: 50px;
+  }
+  .products-1 .ia-mt:first-child {
+    margin-top: 100px;
+  }
+  .products-1 .ia-ml-mr {
+    margin-right: 0px;
+  }
+  .products-1 .ia-dell img {
+    margin-top: 10px !important;
+    transform: translateX(55%) !important;
+  }
+  .products-1 .ia-predator-mon img {
+    margin-top: 10px;
+    transform: translateX(0%) !important;
+  }
+  .products-1 .ia-predator-mon h2 {
+    margin: 15px auto;
+  }
+  .products-1 .ia-phone-iphone img {
+    transform: translateX(70%);
+    width: 40%;
+  }
+  .products-1 #lenovoLaptop img {
+    transform: translateX(0%);
+    margin: 17px 0px;
+  }
+  .product-img, .about-product, .product-price {
+    margin-top: 25px;
+  }
+  .info-specifications h2 {
+    font-size: 1.2rem;
+    width: 50%;
+    margin: 0px auto;
+  }
+  .about-product table {
+    transform: translateX(-20%);
+  }
+  .product-price {
+    margin-top: 45px;
+  }
+  .product-price p {
+    font-size: 1.2rem;
+    width: 145px;
+  }
+  .product-price input[type=number] {
+    display: block;
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+  .product-footer {
+    margin-top: 100px;
+  }
+  .about-product-lenovo {
+    transform: translateX(-7%);
+  }
+  .product-price-lenovo {
+    transform: translateX(5%);
+  }
+  .product-price-iphone input[type=submit] {
+    font-size: 0.8rem;
+  }
+  .product-price-iphone p {
+    font-size: 1rem;
+  }
+  .predator-price p {
+    font-size: 1rem;
+  }
+  .predator-price input[type=submit] {
+    width: 145px;
+    font-size: 1rem;
+  }
+  .predator-price input[type=number] {
+    margin-left: 45px;
+  }
+  .about-predator {
+    transform: translateX(-30%);
+  }
+  .about-predator table tr td {
+    font-size: 0.9rem;
+  }
+  .about-product-dell {
+    transform: translateX(-25%);
+  }
+  .about-product-dell table tr td {
+    font-size: 0.9rem;
+  }
+  .product-price-dell p {
+    font-size: 1rem;
+  }
+  .ia-author p {
+    font-size: 0.9rem;
+  }
+  .ia-author svg {
+    font-size: 1rem;
+  }
+  .ia-author #circle {
+    margin-top: 30px;
+    width: 50px;
+    height: 50px;
+    right: 7%;
+  }
+  .ia-author-img img {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 376px) {
+  #pre-header-links svg {
+    font-size: 0.85rem;
+  }
+  #pre-header-info {
+    padding: 0px;
+  }
+  #pre-header-info ul {
+    justify-content: center;
+    padding-left: 0px;
+  }
+  #pre-header-info li a {
+    font-size: 0.8rem !important;
+  }
+  #main-nav #nav-button button {
+    background-color: red;
+    padding: 1px 3px;
+  }
+  /*
+   .ia-cards{
+       .cards {
+           h2 {
+               font-size: 1rem;
+           }
+       }
+
+   }
+  */
+  .ia-form input[type=text], .ia-form input[type=email] {
+    width: 250px;
+  }
+  .ia-form textarea {
+    width: 250px;
+  }
+  .ia-form input[type=submit] {
+    transform: translateX(150%);
+    padding: 3px 10px;
+    font-size: 0.8rem;
+  }
+  #wtime p {
+    font-size: 1rem;
+  }
+  .ia-wtime h3 {
+    font-size: 1.1rem;
+  }
+  footer a {
+    font-size: 1rem;
+  }
+  footer form #submit {
+    transform: translateX(90%);
+  }
+  #footer-end a {
+    font-size: 0.7rem;
+  }
+  .footer-products {
+    margin-top: 0px !important;
+  }
+  .footer-products .ia-mt-footer {
+    margin-top: 0px !important;
+  }
+  /*
+      .products-1 {
+          .cards{
+               width: 150px;
+               height: 220px;
+
+              h2 {
+                  font-size: 0.7rem;
+              }
+              .price {
+                  width: 100px;
+                  h3 {
+                      font-size: 0.8rem;
+                  }
+              }
+              .info {
+                  width: 120px;
+              }
+          #samsung-laptop{
+              img {
+                  transform: translateX(5%);
+              }
+          }
+
+          }
+      }
+      */
+  .about-product table {
+    transform: translateX(-30%);
+  }
+  .about-product table tr td {
+    font-size: 0.85rem;
+  }
+  .product-price p {
+    font-size: 1rem;
+    width: 115px;
+  }
+  .product-price input[type=submit] {
+    width: 115px;
+    font-size: 0.9rem;
+    display: flex;
+    text-align: center;
+  }
+  .about-product-samsung {
+    transform: translateX(2%);
+  }
+  .product-price-samsung input[type=submit], .product-price-samsung p {
+    font-size: 0.8rem;
+    width: 100px;
+  }
+  .product-price-iphone {
+    transform: translateX(0%);
+  }
+  .product-price-iphone input[type=submit] {
+    font-size: 0.8rem;
+    width: 100px;
+    display: flex;
+  }
+  .product-price-iphone p {
+    width: 100px;
+    font-size: 0.8rem !important;
+  }
+  .predator-price p {
+    font-size: 0.9rem;
+  }
+  .predator-price input[type=submit] {
+    font-size: 0.8rem;
+    display: flex;
+  }
+  .predator-price input[type=number] {
+    margin-left: 30px;
+  }
+  .about-predator {
+    transform: translateX(-10%);
+  }
+  .about-product-dell {
+    transform: translateX(-10%);
+  }
+  .product-price-dell input[type=submit] {
+    display: flex;
+    font-size: 0.8rem;
+  }
+  .product-price-dell p {
+    font-size: 0.9rem;
+  }
+  .ia-author p {
+    font-size: 0.8rem;
+  }
+  .ia-author svg {
+    font-size: 1rem;
+  }
+  .ia-author #circle {
+    margin-top: 15px;
+    width: 50px;
+    height: 50px;
+  }
+  .ia-author-img img {
+    width: 50%;
+  }
+}
+body {
+  background-color: red;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.spinner {
+  width: 40px;
+  height: 40px;
+  border-top-color: #BC0A0A;
+  border-left-color: red;
+  animation: spinner 0.8s linear;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 50%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#bodyBG {
+  background-color: #1B1B1B;
+  width: 100%;
+  height: 100vh;
+}
+
+li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000;
+}
+
+#arrow {
+  display: none;
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  bottom: 25px;
+  right: 25px;
+  cursor: pointer;
+  border: none;
+  background-position: center;
+}
+#arrow svg {
+  font-size: 4.55rem;
+  transform: translate(-6.5px, -6.5px);
+}
+
+body {
+  background-color: #212121 !important;
+  font-size: 16px;
+  font-family: "Inter", sans-serif !important;
+}
+
+.ia-text-red {
+  color: #BC0A0A;
+}
+
+.ia-bg-red {
+  background-color: #BC0A0A;
+}
+
+.ia-bg-black {
+  background-color: #000;
+}
+
+.ia-bg-darkGrey {
+  background-color: #1B1B1B;
+}
+
+.dimbackground-curtain {
+  z-index: 0 !important;
+}
+
+/*Pre header*/
+#pre-header-info li a {
+  color: #000;
+  transition: 0.7s;
+  font-size: 0.9rem;
+  margin-left: 0px !important;
+}
+#pre-header-info li :hover {
+  color: #fff;
+}
+#pre-header-info svg {
+  margin-right: 5px;
+}
+#pre-header-info ul :nth-child(2) a {
+  vertical-align: text-bottom;
+}
+
+#pre-header-links li a {
+  color: #000;
+  transition: 0.7s;
+}
+#pre-header-links li a :hover {
+  color: #fff;
+  transition: 0.7s;
+}
+
+/*Main nav*/
+#main-nav {
+  box-shadow: 0px -1px 5px 3px #000;
+  z-index: 2;
+}
+#main-nav h1 {
+  font-family: "IBM Plex Serif", serif !important;
+}
+#main-nav h1 a {
+  margin-bottom: 5px;
+  font-size: 2.3rem;
+  transition: 0.7s;
+}
+#main-nav h1 :hover {
+  color: #BC0A0A !important;
+  transition: 0.7s;
+}
+#main-nav ul li :hover {
+  color: #BC0A0A !important;
+  transition: 0.7s;
+}
+#main-nav #hamb {
+  display: none;
+  position: absolute;
+  right: 110px;
+}
+#main-nav #hamb #open {
+  cursor: pointer;
+}
+#main-nav #hamb #open span {
+  display: block;
+  width: 28px;
+  height: 3px;
+  background-color: #fff;
+  margin: 6px 0px;
+}
+#main-nav #hamb #contentHamb {
+  display: none;
+  position: absolute;
+  width: 700%;
+  margin-top: 20px;
+  height: 80vh;
+  background-color: #1B1B1B;
+  color: #fff;
+  z-index: 1;
+  left: -58px;
+  overflow-x: hidden;
+  box-shadow: 0px 0px 16px 7px #000;
+  border-radius: 0px 0px 0px 400px;
+}
+#main-nav #hamb #contentHamb ul {
+  list-style-type: none;
+  font-size: 1.4rem;
+  text-align: center;
+  padding-left: 0px;
+}
+#main-nav #hamb #contentHamb ul .dropdown-menu {
+  margin: 0px 10px;
+  background-color: #212121;
+}
+#main-nav #hamb #contentHamb ul .dropdown-menu a {
+  color: #fff;
+}
+#main-nav #hamb #contentHamb #cartHamb {
+  display: none;
+  position: absolute;
+  bottom: 200px;
+  justify-content: space-around;
+  align-items: baseline;
+  font-size: 1.5rem;
+}
+#main-nav #hamb #contentHamb #cartHamb svg {
+  margin-left: 15px;
+  margin-top: 2px;
+}
+#main-nav #hamb #contentHamb #cartHamb p {
+  margin-left: 10px;
+}
+#main-nav #ia-btn-outline {
+  border: 1px solid #BC0A0A !important;
+}
+#main-nav #cart {
+  font-size: 2rem;
+  margin-left: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+#main-nav #cart #numberProducts {
+  color: #fff;
+  font-size: 15px;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #BC0A0A;
+  border-radius: 50%;
+  text-align: center;
+}
+
+#cartProducts {
+  display: none;
+  position: absolute;
+  right: 0;
+  z-index: 999;
+  width: 25%;
+  height: auto;
+  background-color: #8c8c8c;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#cartProducts #cartClose {
+  float: left;
+  cursor: pointer;
+  font-size: 1.25rem;
+  margin: 5px 0px 0px 5px;
+}
+#cartProducts #cartNone {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.3rem;
+}
+#cartProducts .btnProducts {
+  position: relative;
+  left: 25%;
+  padding: 40px 0px;
+}
+#cartProducts .btnCart {
+  width: 50%;
+  height: 50px;
+  background-color: #BC0A0A;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  transition: 200ms;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+#cartProducts .btnCart:hover {
+  box-shadow: 0px 0px 10px 2px #212121;
+  transition: 200ms;
+}
+#cartProducts .productCart {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid red;
+}
+#cartProducts .productCart img {
+  width: 200px;
+}
+#cartProducts .productCart .cartText {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+#cartProducts .productCart .cartText svg {
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+#order {
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  width: -moz-fit-content;
+  width: fit-content;
+  overflow-x: hidden;
+  max-width: 1600px;
+  height: 500px;
+  background-color: #1B1B1B;
+  z-index: 999;
+}
+#order p {
+  color: #BC0A0A;
+  margin-top: -8px;
+  font-size: 0.8rem;
+}
+#order #orderClose {
+  position: absolute;
+  right: 0px;
+  cursor: pointer;
+  color: #fff;
+  margin: 15px 15px 0px 0px;
+  font-size: 2rem;
+}
+#order #nameOrder, #order #lastaNameOrder, #order #phoneOrder, #order #addressOrder, #order #cityOrder, #order #zipCodeOrder {
+  margin: 0px 25px;
+}
+#order #infoUl {
+  padding-left: 0px;
+}
+#order #infoUl div {
+  margin-right: 5px;
+  border-bottom: 1px solid #BC0A0A;
+}
+#order #infoUl div:last-child {
+  margin-right: 0px;
+}
+#order #personalInfo p {
+  margin-top: 15px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.3rem;
+}
+#order input[type=button] {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0px);
+  bottom: 25px;
+  width: 20%;
+  text-align: center;
+}
+#order input[type=button]:hover {
+  background-color: #BC0A0A;
+  box-shadow: 0px 0px 5px #8c8c8c;
+  transition: 350ms;
+}
+#order #country {
+  background: transparent;
+  color: white;
+  /* width: 174px; */
+  width: 350px;
+  margin: 15px 0px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid #BC0A0A;
+}
+#order #country:focus {
+  background-color: #1B1B1B;
+}
+
+/*Slider*/
+#slider {
+  display: flex;
+  justify-content: center;
+}
+#slider .slick-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  position: absolute;
+  top: 100%;
+  left: 47%;
+}
+#slider .slick-dots li button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  text-indent: -9999px;
+  font-size: 0px;
+  overflow: hidden;
+  margin: 5px;
+  /* more CSS */
+}
+#slider .slick-active button {
+  background-color: #8c8c8c;
+}
+#slider .slick-prev, #slider .slick-next {
+  background-color: transparent;
+  border: none;
+}
+#slider .slick-prev svg, #slider .slick-next svg {
+  font-size: 2.4rem;
+  color: #8c8c8c;
+}
+#slider .slick-next {
+  margin-left: 10px;
+}
+#slider .slick-prev {
+  margin-right: 10px;
+}
+#slider .slick-list {
+  border-radius: 50px;
+}
+#slider .custom-slider {
+  margin-bottom: 150px;
+}
+
+/*Cards*/
+.ia-cards {
+  margin: 150px 0px !important;
+  padding-left: 80px;
+}
+.ia-cards .cards {
+  border-radius: 10px;
+  width: 330px;
+  height: 470px;
+  border: 1px solid #BC0A0A;
+  box-shadow: 0px 0px 30px 8px rgba(0, 0, 0, 0.75);
+}
+.ia-cards .cards img {
+  width: 100%;
+  border-radius: 10px;
+}
+.ia-cards .cards h2 {
+  color: #fff;
+  width: 80%;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  margin: 0px auto;
+  text-align: center;
+}
+.ia-cards .cards .price {
+  background-color: #BC0A0A;
+  width: 200px;
+  margin: 0px auto;
+  border-radius: 5px;
+}
+.ia-cards .cards .price h3 {
+  margin-top: 35px;
+  color: #000;
+  text-align: center;
+}
+.ia-cards .cards .info {
+  text-align: center;
+  margin: 0px auto;
+  width: 300px;
+}
+.ia-cards .cards .info img {
+  width: 20%;
+}
+.ia-cards .cards #monitor img {
+  margin-top: 32px;
+}
+.ia-cards .ia-lenovo {
+  margin-top: 45px;
+}
+.ia-cards #lenovo img {
+  transform: translateX(15%);
+  margin: 17px 0px;
+}
+.ia-cards #dell-monitor img {
+  margin-top: 10px;
+  width: 65%;
+  transform: translateX(30%);
+}
+.ia-cards #img-phone img {
+  width: 60%;
+  transform: translateX(25%);
+  margin: 10px 0px;
+}
+.ia-cards #samsung-phone img {
+  width: 90%;
+  transform: translateX(5%);
+}
+
+/*Footer*/
+input[type=text], input[type=email] {
+  width: 350px;
+  margin: 10px 0px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid #BC0A0A;
+  color: #fff;
+  z-index: 999;
+}
+
+textarea {
+  margin: 5px 0px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #BC0A0A;
+  width: 350px;
+  height: 150px;
+  color: #fff;
+}
+
+input[type=button] {
+  color: #fff;
+  border: 1px solid #BC0A0A;
+  padding: 8px 20px;
+  border-radius: 5px;
+  background-color: #BC0A0A;
+  transition: 0.7s;
+}
+
+input[type=button]:hover {
+  background-color: rgba(0, 0, 0, 0);
+  transition: 0.5s;
+}
+
+.hide {
+  display: none;
+}
+
+#wtime p {
+  font-size: 1.2rem;
+}
+
+footer a {
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+footer form p {
+  margin-top: -8px;
+  color: #BC0A0A;
+}
+
+#footer-end {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+#footer-end p {
+  margin-bottom: 0px;
+  transition: 0.5s;
+}
+#footer-end p a:hover {
+  color: #000;
+  transition: 0.5s;
+}
+#footer-end a {
+  color: #fff;
+  font-size: 1.1rem;
+  transition: 0.5s;
+}
+#footer-end a svg :hover {
+  color: #000;
+  transition: 0.5s;
+}
+
+/*aside Page*/
+.ia-aside {
+  margin-left: 170px;
+}
+.ia-aside #hambAside {
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 10px;
+}
+.ia-aside #hambAside #filtersHamb {
+  cursor: pointer;
+  margin-top: 10px;
+}
+.ia-aside #hambAside #filtersHamb svg {
+  font-size: 1.5rem;
+}
+.ia-aside #hambAside #sortHamb {
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+.ia-aside #hambAside #sortHamb svg {
+  font-size: 1.5rem;
+}
+
+aside {
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 0px 20px;
+  box-shadow: 0px -1px 5px 3px #000;
+  border-radius: 0px 0px 10px 10px;
+}
+aside input[type=checkbox] {
+  margin-left: 15px;
+}
+aside input[type=range] {
+  width: 90%;
+  border-radius: 5px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: #8c8c8c;
+  height: 7px;
+}
+aside input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #BC0A0A;
+}
+aside #asideClose {
+  display: none;
+  float: right;
+  color: #fff;
+  margin-top: 10px;
+  font-size: 1.4rem;
+}
+aside #ia-btn-form {
+  border: 1px solid #BC0A0A;
+  transform: translateX(70%);
+}
+aside #ia-btn-form:hover {
+  background-color: #BC0A0A;
+  border: 1px solid #212121;
+}
+aside #sort {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  margin-top: 15px;
+}
+aside #sort select {
+  margin-left: 10px;
+  background-color: #212121;
+  color: #fff;
+  border: 1px solid #BC0A0A;
+  padding: 5px 10px;
+}
+
+/*End Aside*/
+.footer-products {
+  margin-top: 400px;
+}
+
+.products-1 .cards {
+  position: relative;
+  width: 330px;
+  height: 470px;
+  box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.75);
+  transition: 300ms;
+}
+.products-1 .cards:hover {
+  transform: scale(1.045);
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.75);
+  background-color: #1B1B1B;
+  transition: 300;
+}
+.products-1 .cards img {
+  width: 100%;
+}
+.products-1 .cards h2 {
+  color: #fff;
+  width: 80%;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  margin: 0px auto;
+  text-align: center;
+}
+.products-1 .cards .price {
+  background-color: #BC0A0A;
+  width: 200px;
+  margin: 0px auto;
+  border-radius: 5px;
+}
+.products-1 .cards .price h3 {
+  padding: 12px 5px;
+  margin-top: 35px;
+  color: #fff;
+  text-align: center;
+}
+.products-1 .cards .info {
+  cursor: pointer;
+  text-align: center;
+  margin: 0px auto;
+  width: inherit;
+}
+.products-1 .cards .info img {
+  width: 17%;
+}
+.products-1 .cards .info img:hover {
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.75);
+}
+.products-1 .cards .info svg {
+  cursor: pointer;
+  font-size: 2.5rem;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+.products-1 .cards .info svg:hover {
+  color: #BC0A0A !important;
+  transition: 0.3s;
+}
+.products-1 .cards .popular {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: red;
+  right: 0px;
+}
+.products-1 .cards img[alt=Iphone11] {
+  width: 65%;
+}
+.products-1 .cards .imgProduct {
+  display: flex;
+  justify-content: center;
+}
+.products-1 .ia-lenovo, .products-1 .ia-samsung-laptop {
+  margin-top: 45px;
+}
+.products-1 .ia-ml-mr {
+  margin-left: 110px;
+  margin-right: 90px;
+}
+.products-1 #noneProduct {
+  display: none;
+  font-size: 3.5rem;
+  text-align: center;
+  color: #fff;
+}
+
+#searchProduct {
+  display: none;
+  width: 289px;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: gray;
+  /* position: fixed; */
+  left: 60%;
+  /* float: right; */
+  position: absolute;
+  z-index: 9;
+}
+#searchProduct .nameSeacrh {
+  width: 100%;
+  padding: 20px 0px;
+  text-align: center;
+  color: white;
+  padding-left: 5px;
+}
+#searchProduct .productSearch {
+  display: flex;
+  align-items: center;
+}
+#searchProduct .productSearch:hover {
+  background-color: rgb(95, 95, 95);
+  cursor: pointer;
+}
+
+/*Autor*/
+.ia-author {
+  width: 80%;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-bottom: 25px;
+  margin: 30px 0px;
+  border: 1px solid #BC0A0A;
+  box-shadow: 0px 0px 30px 8px rgba(0, 0, 0, 0.75);
+}
+.ia-author #circle {
+  position: absolute;
+  right: 100px;
+  bottom: -5px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #BC0A0A;
+}
+.ia-author ul {
+  padding-left: 0px;
+}
+.ia-author p {
+  font-size: 1.6rem;
+  padding: 10px;
+}
+.ia-author #nameAuthor a {
+  transition: 0.7s;
+}
+.ia-author #nameAuthor a:hover {
+  color: #fff;
+}
+.ia-author svg {
+  font-size: 1.6rem;
+  transition: 0.6s;
+}
+.ia-author svg:hover {
+  color: #BC0A0A;
+  transition: 0.6s;
+}
+
+.ia-author-img img {
+  width: 25%;
+}
+
+#product {
+  display: none;
+  border: 1px solid #fff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20%;
+  background-color: #1B1B1B;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0px 30px 30px 20px;
+}
+#product #closeProduct {
+  float: right;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+#product #imgProduct {
+  width: 450px;
+}
+#product #imgProduct img {
+  width: 100%;
+}
+#product #productInfo table td {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  white-space: nowrap;
+}
+#product #productInfo table td:nth-child(even) {
+  text-align: center;
+}
+#product .productPrice svg {
+  font-size: 3.5rem;
+}
+#product .productPrice span {
+  font-size: 1.5rem;
+}
+#product .productPrice #productCart {
+  border: 1px solid #BC0A0A;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+#product .productPrice #productCart .inputKol {
+  background: transparent;
+  border: 1px solid #BC0A0A;
+  width: 15%;
+}
+#product .productPrice #price {
+  background-color: #BC0A0A;
+  padding: 20px 30px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#product .productPrice #price h3 {
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.borderBottom {
+  border-bottom: 1px solid #BC0A0A;
+}
+
+.textPromo {
+  font-size: 1.4rem;
+  letter-spacing: 1.2px;
+}
+
+#firstPromo,
+#secondPromo {
+  align-items: center;
+  position: relative;
+}
+#firstPromo #firstPromoImg,
+#secondPromo #firstPromoImg {
+  position: relative;
+  left: -100%;
+}
+#firstPromo #firstTextPromo,
+#secondPromo #firstTextPromo {
+  display: none;
+  position: relative;
+  right: -170%;
+}
+
+#secondPromo #textSecondPromo {
+  position: relative;
+  left: -170%;
+}
+#secondPromo #secondPromoImg {
+  display: none;
+  position: relative;
+  right: -100%;
+}
+
+#succAdd {
+  top: 90%;
+  left: 46%;
+}
+
+input[type=radio] {
+  cursor: pointer;
+  -moz-appearance: none;
+       appearance: none;
+  -webkit-appearance: none;
+  border: 2px solid #999;
+  border-radius: 4px;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  display: inline-block;
+  position: relative;
+  transform: translate(5px, 4px);
+  background-color: #ccc;
+}
+
+input[type=radio]:checked {
+  background-color: #BC0A0A;
+}
+
+input[type=radio]:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #999;
+  border-radius: 4px;
+  opacity: 0;
+  background-size: 10px 10px;
+  transition: opacity 0.2s ease;
+}
+
+input[type=radio]:checked:after {
+  top: -2;
+  left: -2;
+  background-position: center;
+}
+
+/* Create the spinner animation *//*# sourceMappingURL=style.css.map */

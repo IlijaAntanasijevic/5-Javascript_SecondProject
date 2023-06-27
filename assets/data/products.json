@@ -1,0 +1,580 @@
+[
+  {
+    "id" : 1,
+    "naziv" : "Samsung Galaxy Book Flex Aplpha",
+    "slika" : {
+      "src" : "assets/images/samsung-laptop.png",
+      "alt" : "SamsungGalaxy-Laptop"
+    },
+    "kategorijaID" : 1,
+    "brendID" : 1,
+    "cena" : 99.999,
+    "specifikacije" : [
+      {
+        "naziv" : "Model",
+        "vrednost" : "Samsung"
+      },
+      {
+        "naziv" : "RAM",
+        "vrednost" : "16 GB"
+      },
+      {
+        "naziv" : "Dijagonala ekrana",
+        "vrednost" : "14.2"
+      },
+      {
+        "naziv" : "SSD",
+        "vrednost" : "128 GB"
+      },
+      {
+        "naziv" : "Gaming",
+        "vrednost" : "Da"
+      }
+    ],
+    "topProdaja" : true
+  },
+  {
+    "id" : 2,
+    "naziv" : "Lenovo Laptop",
+    "slika" : {
+      "src" : "assets/images/samsung-laptop2.png",
+      "alt" : "Lenovo-Laptop"
+    },
+    "kategorijaID" : 1,
+    "brendID" : 2,
+    "cena" : 119.999,
+    "specifikacije" : [
+      {
+        "naziv" : "Model",
+        "vrednost" : "Lenovo"
+      },
+      {
+        "naziv" : "RAM",
+        "vrednost" : "4 GB"
+      },
+      {
+        "naziv" : "Dijagonala ekrana",
+        "vrednost" : "14.5"
+      },
+      {
+        "naziv" : "SSD",
+        "vrednost" : "512 GB"
+      },
+      {
+        "naziv" : "Gaming",
+        "vrednost" : "Ne"
+      }
+    ],
+    "topProdaja" : false
+  },
+  {
+    "id" : 3,
+    "naziv" : "Apple",
+    "slika" : {
+      "src" : "assets/images/macbook-laptop.png",
+      "alt" : "SamsungGalaxy-Laptop"
+    },
+    "kategorijaID" : 1,
+    "brendID" : 4,
+    "cena" : 149.999,
+    "specifikacije" : [
+      {
+        "naziv" : "Model",
+        "vrednost" : "Apple"
+      },
+      {
+        "naziv" : "RAM",
+        "vrednost" : "16 GB"
+      },
+      {
+        "naziv" : "Dijagonala ekrana",
+        "vrednost" : "13.3"
+      },
+      {
+        "naziv" : "SSD",
+        "vrednost" : "128 GB"
+      },
+      {
+        "naziv" : "Gaming",
+        "vrednost" : "Da"
+      }
+    ],
+    "topProdaja" : true
+  },
+  {
+    "id" : 4,
+    "naziv" : "Macbook",
+    "slika" : {
+      "src" : "assets/images/macbook2-laptop.png",
+      "alt" : "SamsungGalaxy-Laptop"
+    },
+    "kategorijaID" : 1,
+    "brendID" : 4,
+    "cena" : 199.999,
+    "specifikacije" : [
+      {
+        "naziv" : "Model",
+        "vrednost" : "Apple"
+      },
+      {
+        "naziv" : "RAM",
+        "vrednost" : "8 GB"
+      },
+      {
+        "naziv" : "Dijagonala ekrana",
+        "vrednost" : "13.3"
+      },
+      {
+        "naziv" : "SSD",
+        "vrednost" : "256 GB"
+      },
+      {
+        "naziv" : "Gaming",
+        "vrednost" : "Ne"
+      }
+    ],
+    "topProdaja" : false
+  },
+  {
+    "id" : 5,
+    "naziv" : "Lenovo Laptop",
+    "slika" : {
+      "src" : "assets/images/lenovo-laptop2.png",
+      "alt" : "SamsungGalaxy-Laptop"
+    },
+    "kategorijaID" : 1,
+    "brendID" : 2,
+    "cena" : 13.999,
+    "specifikacije" : [
+      {
+        "naziv" : "Model",
+        "vrednost" : "Lenovo"
+      },
+      {
+        "naziv" : "RAM",
+        "vrednost" : "32 GB"
+      },
+      {
+        "naziv" : "Dijagonala ekrana",
+        "vrednost" : "15.6"
+      },
+      {
+        "naziv" : "SSD",
+        "vrednost" : "256 GB"
+      },
+      {
+        "naziv" : "Gaming",
+        "vrednost" : "Ne"
+      }
+    ],
+    "topProdaja" : false
+  },
+  {
+    "id" : 6,
+    "naziv" : "Iphone 11 128 GB / CRNI",
+    "slika" : {
+      "src" : "assets/images/iphone-phone.png",
+      "alt" : "Iphone11"
+    },
+    "kategorijaID" : 2,
+    "brendID" : 1,
+    "cena" : 149.999,
+    "specifikacije" : [
+      {
+        "naziv" : "Model",
+        "vrednost" : "Iphone"
+      },
+      {
+        "naziv" : "Memorija",
+        "vrednost" : "128 GB"
+      },
+      {
+        "naziv" : "Baterija",
+        "vrednost" : "3000 mAh"
+      },
+      {
+        "naziv" : "SIM",
+        "vrednost" : "Single"
+      },
+      {
+        "naziv" : "Kamera",
+        "vrednost" : "28MP"
+      }
+    ],
+    "topProdaja" : false
+  },
+  {
+    "id" : 7,
+    "naziv" : "Iphone 12 256 GB / CRNI",
+    "slika" : {
+      "src" : "assets/images/iphone-phone.png",
+      "alt" : "Iphone11"
+    },
+    "kategorijaID" : 2,
+    "brendID" : 1,
+    "cena" : 49.999,
+    "specifikacije" : [
+      {
+        "naziv" : "Model",
+        "vrednost" : "Iphone"
+      },
+      {
+        "naziv" : "Memorija",
+        "vrednost" : "256 GB"
+      },
+      {
+        "naziv" : "Baterija",
+        "vrednost" : "4800 mAh"
+      },
+      {
+        "naziv" : "SIM",
+        "vrednost" : "Single"
+      },
+      {
+        "naziv" : "Kamera",
+        "vrednost" : "28MP"
+      }
+    ],
+    "topProdaja" : false
+  },
+  {
+    "id" : 8,
+    "naziv" : "Samsung 11 64 GB / CRNI",
+    "slika" : {
+      "src" : "assets/images/samsung-laptop.png",
+      "alt" : "Iphone11"
+    },
+    "kategorijaID" : 2,
+    "brendID" : 1,
+    "cena" : 9.999,
+    "specifikacije" : [
+      {
+        "naziv" : "Model",
+        "vrednost" : "Samsung"
+      },
+      {
+        "naziv" : "Memorija",
+        "vrednost" : "64 GB"
+      },
+      {
+        "naziv" : "Baterija",
+        "vrednost" : "3000 mAh"
+      },
+      {
+        "naziv" : "SIM",
+        "vrednost" : "Dual"
+      },
+      {
+        "naziv" : "Kamera",
+        "vrednost" : "12MP"
+      }
+    ],
+    "topProdaja" : false
+  },
+  {
+    "id" : 9,
+    "naziv" : "Iphone 11 128 GB / CRNI",
+    "slika" : {
+      "src" : "assets/images/iphone-phone.png",
+      "alt" : "Iphone11"
+    },
+    "kategorijaID" : 2,
+    "brendID" : 1,
+    "cena" : 149.999,
+    "specifikacije" : [
+      {
+        "naziv" : "Model",
+        "vrednost" : "Iphone"
+      },
+      {
+        "naziv" : "Memorija",
+        "vrednost" : "128 GB"
+      },
+      {
+        "naziv" : "Baterija",
+        "vrednost" : "3600 mAh"
+      },
+      {
+        "naziv" : "SIM",
+        "vrednost" : "Single"
+      },
+      {
+        "naziv" : "Kamera",
+        "vrednost" : "12MP"
+      }
+    ],
+    "topProdaja" : false
+  },
+  {
+    "id" : 10,
+    "naziv" : "Iphone 11 128 GB / CRNI",
+    "slika" : {
+      "src" : "assets/images/iphone-phone.png",
+      "alt" : "Iphone11"
+    },
+    "kategorijaID" : 2,
+    "brendID" : 1,
+    "cena" : 149.999,
+    "specifikacije" : [
+      {
+        "naziv" : "Model",
+        "vrednost" : "Iphone"
+      },
+      {
+        "naziv" : "Memorija",
+        "vrednost" : "128 GB"
+      },
+      {
+        "naziv" : "Baterija",
+        "vrednost" : "3000 mAh"
+      },
+      {
+        "naziv" : "SIM",
+        "vrednost" : "Single"
+      },
+      {
+        "naziv" : "Kamera",
+        "vrednost" : "28MP"
+      }
+    ],
+    "topProdaja" : false
+  },
+  {
+    "id" : 11,
+    "naziv" : "Iphone 11 128 GB / CRNI",
+    "slika" : {
+      "src" : "assets/images/iphone-phone.png",
+      "alt" : "Iphone11"
+    },
+    "kategorijaID" : 2,
+    "brendID" : 1,
+    "cena" : 149.999,
+    "specifikacije" : [
+      {
+        "naziv" : "Model",
+        "vrednost" : "Iphone"
+      },
+      {
+        "naziv" : "Memorija",
+        "vrednost" : "128 GB"
+      },
+      {
+        "naziv" : "Baterija",
+        "vrednost" : "3000 mAh"
+      },
+      {
+        "naziv" : "SIM",
+        "vrednost" : "Single"
+      },
+      {
+        "naziv" : "Kamera",
+        "vrednost" : "28MP"
+      }
+    ],
+    "topProdaja" : false
+  },
+  {
+    "id" : 12,
+    "naziv" : "Huawei 11 64 GB / CRNI",
+    "slika" : {
+      "src" : "assets/images/samsung-laptop.png",
+      "alt" : "Iphone11"
+    },
+    "kategorijaID" : 2,
+    "brendID" : 1,
+    "cena" : 99999.999,
+    "specifikacije" : [
+      {
+        "naziv" : "Model",
+        "vrednost" : "Huawei"
+      },
+      {
+        "naziv" : "Memorija",
+        "vrednost" : "256 GB"
+      },
+      {
+        "naziv" : "Baterija",
+        "vrednost" : "4800 mAh"
+      },
+      {
+        "naziv" : "SIM",
+        "vrednost" : "Dual"
+      },
+      {
+        "naziv" : "Kamera",
+        "vrednost" : "12MP"
+      }
+    ],
+    "topProdaja" : false
+  },
+  {
+    "id" : 13,
+    "naziv" : "ACER Predator Z35",
+    "slika" : {
+      "src" : "assets/images/predator-monitor.png",
+      "alt" : "PredatorZ35"
+    },
+    "kategorijaID" : 3,
+    "brendID" : 6,
+    "cena" : 49.999,
+    "specifikacije" : [
+      {
+        "naziv" : "Model",
+        "vrednost" : "Acer"
+      },
+      {
+        "naziv" : "Rezolucija",
+        "vrednost" : "1920x1080"
+      },
+      {
+        "naziv" : "Tip panela",
+        "vrednost" : "IPS"
+      },
+      {
+        "naziv" : "Dijagonala",
+        "vrednost" : "27"
+      },
+      {
+        "naziv" : "Osvezavanje",
+        "vrednost" : "60Hz"
+      }
+    ],
+    "topProdaja" : false
+  },
+  {
+    "id" : 14,
+    "naziv" : "Dell",
+    "slika" : {
+      "src" : "assets/images/predator-monitor.png",
+      "alt" : "Dell"
+    },
+    "kategorijaID" : 3,
+    "brendID" : 5,
+    "cena" : 149.999,
+    "specifikacije" : [
+      {
+        "naziv" : "Model",
+        "vrednost" : "Dell"
+      },
+      {
+        "naziv" : "Rezolucija",
+        "vrednost" : "1920x1080"
+      },
+      {
+        "naziv" : "Tip panela",
+        "vrednost" : "IPS"
+      },
+      {
+        "naziv" : "Dijagonala",
+        "vrednost" : "27"
+      },
+      {
+        "naziv" : "Osvezavanje",
+        "vrednost" : "144Hz"
+      }
+    ],
+    "topProdaja" : true
+  },
+  {
+    "id" : 15,
+    "naziv" : "Dell",
+    "slika" : {
+      "src" : "assets/images/predator-monitor.png",
+      "alt" : "Dell"
+    },
+    "kategorijaID" : 3,
+    "brendID" : 5,
+    "cena" : 149.999,
+    "specifikacije" : [
+      {
+        "naziv" : "Model",
+        "vrednost" : "Dell"
+      },
+      {
+        "naziv" : "Rezolucija",
+        "vrednost" : "1280x1024"
+      },
+      {
+        "naziv" : "Tip panela",
+        "vrednost" : "LED"
+      },
+      {
+        "naziv" : "Dijagonala",
+        "vrednost" : "32"
+      },
+      {
+        "naziv" : "Osvezavanje",
+        "vrednost" : "60Hz"
+      }
+    ],
+    "topProdaja" : true
+  },
+  {
+    "id" : 16,
+    "naziv" : "Predator Z35",
+    "slika" : {
+      "src" : "assets/images/predator-monitor.png",
+      "alt" : "PredatorZ35"
+    },
+    "kategorijaID" : 3,
+    "brendID" : 6,
+    "cena" : 149.999,
+    "specifikacije" : [
+      {
+        "naziv" : "Model",
+        "vrednost" : "Predator"
+      },
+      {
+        "naziv" : "Rezolucija",
+        "vrednost" : "2560x1080"
+      },
+      {
+        "naziv" : "Tip panela",
+        "vrednost" : "LED"
+      },
+      {
+        "naziv" : "Dijagonala",
+        "vrednost" : "27"
+      },
+      {
+        "naziv" : "Osvezavanje",
+        "vrednost" : "210Hz"
+      }
+    ],
+    "topProdaja" : false
+  },
+  {
+    "id" : 17,
+    "naziv" : "Random",
+    "slika" : {
+      "src" : "assets/images/predator-monitor.png",
+      "alt" : "PredatorZ35"
+    },
+    "kategorijaID" : 3,
+    "brendID" : 8,
+    "cena" : 149.999,
+    "specifikacije" : [
+      {
+        "naziv" : "Model",
+        "vrednost" : "Random"
+      },
+      {
+        "naziv" : "Rezolucija",
+        "vrednost" : "2560x1080"
+      },
+      {
+        "naziv" : "Tip panela",
+        "vrednost" : "OLED"
+      },
+      {
+        "naziv" : "Dijagonala",
+        "vrednost" : "32"
+      },
+      {
+        "naziv" : "Osvezavanje",
+        "vrednost" : "210Hz"
+      }
+    ],
+    "topProdaja" : true
+  }
+]

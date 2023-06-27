@@ -1,0 +1,18 @@
+[
+  {
+    "naziv": "Najjeftinije",
+    "vrednost" : "cena-asc"
+  },
+  {
+    "naziv" : "Najskuplje",
+    "vrednost" : "cena-desc"
+  },
+  {
+    "naziv": "Po nazivu A-Z",
+    "vrednost" : "naziv-asc"
+  },
+  {
+    "naziv": "Po nazivu Z-A",
+    "vrednost" : "naziv-desc"
+  }
+]

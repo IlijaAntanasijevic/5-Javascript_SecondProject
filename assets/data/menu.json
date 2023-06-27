@@ -1,0 +1,32 @@
+[
+  {
+    "id" : 1,
+    "name": "Početna",
+    "link" : "index.html"
+  },
+  {
+    "id" : 2,
+    "name": "Kontakt",
+    "link" : "#footer"
+  },
+  {
+    "id" : 3,
+    "name" : "Autor",
+    "link" : "author.html"
+  },
+  {
+    "id" : 4,
+    "name" : "Proizvodi",
+    "link" : [
+      {
+        "name" : "Laptop",
+        "href" : "product-laptop.html"
+      },
+      {
+        "name" : "Telefoni",
+        "href" : "product-phone.html"
+      }
+    
+    ]
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "id" : 1,
+    "kategorijaID" : 1,
+    "naziv" : "Proizvodjac"
+  },
+  {
+    "id" : 2,
+    "kategorijaID" : 1,
+    "naziv" : "Ram"
+  },
+  {
+    "id" : 3,
+    "kategorijaID" : 1,
+    "naziv" : "Ekran"
+  },
+  {
+    "id" : 4,
+    "kategorijaID" : 1,
+    "naziv" : "SSD"
+  },
+  {
+    "id" : 5,
+    "kategorijaID" : 1,
+    "naziv" : "Gaming"
+  },
+  {
+    "id" : 6 ,
+    "kategorijaID" : 2,
+    "naziv" : "Proizvodjac"
+  },
+  {
+    "id" : 7,
+    "kategorijaID" : 2,
+    "naziv" : "Memorija"
+  },
+  {
+    "id" : 8,
+    "kategorijaID" : 2,
+    "naziv" : "Baterija"
+  },
+
+  {
+    "id" : 10,
+    "kategorijaID" : 2,
+    "naziv" : "SIM slot"
+  },
+  {
+    "id" : 11,
+    "kategorijaID" : 3,
+    "naziv" : "Proizvodjac"
+  },
+  {
+    "id" : 12,
+    "kategorijaID" : 3,
+    "naziv" : "Rezolucija"
+  },
+  {
+    "id" : 13,
+    "kategorijaID" : 3,
+    "naziv" : "Tip panela"
+  },
+  {
+    "id" : 14,
+    "kategorijaID" : 3,
+    "naziv" : "Dijagonala"
+  },
+  {
+    "id" : 15,
+    "kategorijaID" : 3,
+    "naziv" : "Osvezavanje"
+  },
+  {
+    "id" : 16,
+    "kategorijaID" : 2,
+    "naziv" : "Kamera"
+  }
+]

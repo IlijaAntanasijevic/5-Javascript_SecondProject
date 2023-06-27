@@ -1,0 +1,34 @@
+[
+  {
+    "id" : 1,
+    "naziv" : "Samsung"
+  },
+  {
+    "id" : 2,
+    "naziv" : "Lenovo"
+  },
+  {
+    "id" : 3,
+    "naziv" : "MacBook"
+  },
+  {
+    "id" : 4,
+    "naziv" : "Apple"
+  },
+  {
+    "id" : 5,
+    "naziv" : "Dell"
+  },
+  {
+    "id" : 6,
+    "naziv" : "Acer"
+  },
+  {
+    "id" : 7,
+    "naziv" : "Huawei"
+  },
+  {
+    "id" : 8,
+    "naziv" : "Random"
+  }
+]
