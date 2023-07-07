@@ -1,7 +1,7 @@
-# Javascript-Project-2
+# Javascript Second Project
 
-Learning more about javascript & jquery and upgrading the Bootstrap project
+Improving Javascript and jQuery, upgrading the Bootstrap project. Made with JSON files instead of database...
 
-Created on: 2023-03-05
+It was created on 2023-Mar-05
 
 Link: https://ilijaweb2.netlify.app/index.html
